@@ -1,0 +1,208 @@
+/* General Styles */
+.root {
+    -fx-font-family: "Arial", sans-serif;
+}
+
+.label {
+    -fx-text-fill: #4b382a; /* or any other color you prefer */
+}
+
+/* Buttons */
+.button {
+    -fx-background-color: #cda34b;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px;
+}
+
+.btn-primary {
+    -fx-background-color: #007bff;
+    -fx-text-fill: white;
+}
+
+.btn-secondary {
+    -fx-background-color: #6c757d;
+    -fx-text-fill: white;
+}
+
+.btn-success {
+    -fx-background-color: #28a745;
+    -fx-text-fill: white;
+}
+
+.btn-info {
+    -fx-background-color: #17a2b8;
+    -fx-text-fill: white;
+}
+
+/* Navigation Bar */
+.navbar {
+    -fx-background-color: #cda34b; /* Egyptian gold */
+    -fx-padding: 10px;
+}
+
+.navbar-brand {
+    -fx-text-fill: #fff;
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    -fx-text-fill: #fff;
+    -fx-margin-right: 20px;
+}
+
+/* Video Section */
+.video-container {
+    -fx-width: 100%;
+    -fx-height: auto;
+    -fx-margin-top: 20px;
+}
+
+.video-container video {
+    -fx-width: 100%;
+    -fx-border: 2px solid #cda34b; /* Gold border */
+}
+
+/* Pagination */
+.pagination-container {
+    -fx-margin-top: 40px;
+}
+
+.pagination-container img {
+    -fx-width: 100%;
+    -fx-height: auto;
+    -fx-border: 2px solid #cda34b; /* Gold border */
+}
+
+.pagination-text {
+    -fx-text-fill: #cda34b; /* Gold text */
+    -fx-font-size: 18px;
+    -fx-text-align: center;
+    -fx-margin-top: 10px;
+}
+
+/* Additional Buttons */
+.bottom-buttons {
+    -fx-margin-top: 40px;
+    -fx-text-align: center;
+}
+
+.bottom-buttons .btn {
+    -fx-background-color: #cda34b; /* Gold button background */
+    -fx-text-fill: white;
+    -fx-padding: 10px 20px;
+    -fx-margin: 10px;
+    -fx-border-radius: 5px;
+}
+
+/* Stack Pane */
+.stack-pane {
+    -fx-background-color: #ffffff;
+}
+.gold-button {
+    -fx-background-color: #cda34b;
+    -fx-text-fill: white;
+    -fx-border-color: #a57b3b;
+    -fx-border-radius: 5px;
+    -fx-padding: 10px 20px;
+}
+/* styles.css */
+
+.button {
+    -fx-background-color: #cda34b; /* Gold color */
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-padding: 10px 20px;
+    -fx-cursor: hand;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+.button:hover {
+    -fx-background-color: #b89c47; /* Darker gold color */
+}
+
+.label {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+.text-field, .password-field {
+    -fx-padding: 10px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-border-color: #dcdcdc;
+}
+
+
+.image-view {
+    -fx-border-radius: 10px;
+}
+
+/* General styling for Chatbot Screen */
+.chatbot-layout {
+    -fx-background-color: #f5f5f5; /* Light background for contrast */
+    -fx-padding: 20px;
+}
+
+/* Styling for labels */
+.chatbot-label {
+    -fx-font-size: 18px;
+    -fx-font-family: "Arial, Helvetica, sans-serif"; /* Choose a modern, clean font */
+    -fx-text-fill: #333; /* Dark color for text */
+    -fx-font-weight: bold;
+}
+
+/* Styling for the question list */
+.chatbot-questions-list {
+    -fx-font-size: 14px;
+    -fx-font-family: "Arial, Helvetica, sans-serif";
+    -fx-border-color: #d4af37; /* Golden border */
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+/* Styling for the answer text area */
+.chatbot-answer-area {
+    -fx-font-size: 14px;
+    -fx-font-family: "Arial, Helvetica, sans-serif";
+    -fx-text-fill: #444; /* Slightly lighter text for contrast */
+    -fx-border-color: #d4af37; /* Golden border */
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-padding: 10px;
+    -fx-background-color: #fffbe6; /* Light yellow background for answer area */
+}
+
+/* Styling for golden buttons */
+.gold-button {
+    -fx-background-color: #d4af37; /* Golden background color */
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-family: "Arial, Helvetica, sans-serif";
+    -fx-font-weight: bold;
+    -fx-border-radius: 5px;
+    -fx-padding: 8px 16px;
+    -fx-border-color: #b8860b; /* Darker shade for border */
+    -fx-border-width: 2px;
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.3), 10, 0, 0, 5);
+}
+
+/* Hover effect for golden buttons */
+.gold-button:hover {
+    -fx-background-color: #b8860b; /* Darker golden color on hover */
+    -fx-text-fill: #fff;
+    -fx-border-color: #d4af37;
+}
+
+/* Hover effect for list view items */
+.chatbot-questions-list .list-cell:hover {
+    -fx-background-color: #f2e6d9; /* Light golden hover effect */
+}
